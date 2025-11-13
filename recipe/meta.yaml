@@ -1,5 +1,5 @@
 {% set name = "ajc27-freemocap-blender-addon" %}
-{% set version = "2024.12.1033" %}
+{% set version = "2025.11.1038" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ajc27_freemocap_blender_addon-{{ version }}.tar.gz
-  sha256: f05d28dcfdd1650ba68be277555a2e5b5d384d23dad076e8de918320d76e361d
+  sha256: 11e89be314f579db9e31d0d4d6d16f8d1ca04e20e1f87b59a9da8dd417235c5b
 
 build:
   noarch: python
